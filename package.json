@@ -1,0 +1,33 @@
+{
+  "name": "update-npm",
+  "version": "0.0.0",
+  "description": "Check a NPM module version update",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "update",
+    "notify",
+    "npm-update",
+    "check-update"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noyobo/update-npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noyobo/update-npm/issues"
+  },
+  "homepage": "https://github.com/noyobo/update-npm",
+  "dependencies": {
+    "colors": "^1.0.3",
+    "string-length": "^1.0.0",
+    "update-notifier": "^0.2.2"
+  }
+}
