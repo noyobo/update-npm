@@ -8,7 +8,7 @@ function showNotifier(name, update) {
   var message = [];
   message.push('Tips: '.green + 'Update available: ' + (update.latest).bold.green + (' (current: ' + update.current + ')').gray);
   message.push('Tips: '.green + 'Run ' + ('npm update -g ' + name).magenta + ' to update.');
-  var max = sl(message[0])
+  var max = Math.max(sl(message[0]), sl(message[1]));
   console.log(new Array(max).join('=').yellow)
   console.log(message[0])
   console.log(message[1])
