@@ -1,6 +1,8 @@
 update-npm
 ==========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/noyobo/update-npm.svg)](https://greenkeeper.io/)
+
 [![npm version](http://img.shields.io/npm/v/update-npm.svg)](https://www.npmjs.org/package/update-npm)
 [![npm download](http://img.shields.io/npm/dm/update-npm.svg)](https://www.npmjs.org/package/update-npm)
 
